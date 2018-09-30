@@ -3,7 +3,7 @@ Diberikan sebuah function angkaPrima(angka) yang menerima satu parameter berupa 
 */
 
 function angkaPrima(angka){
-  if(angka < 1){
+  if(angka <= 1){
     return false
   }
   for(var i = 2; i < angka; i++){
